@@ -7,15 +7,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet"
-   href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-   crossorigin="anonymous">
+        href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
    crossorigin="anonymous">
 
 </head>
 <body>
+    <div class="container">
+        <nav class="navbar navbar-dark bg-info">
+          
+              <a href="#" class="navbar-brand"><i class="fab fa-earlybirds"></i> Delisea Gourmet</a>   
+             
+              <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-cart-plus"></i> Products</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" 
+                    aria-haspopup="true" aria-expanded="false"><i class="fas fa-question"></i> About us</a>
+                    <div class="dropdown-menu" x-placement="bottom-start" 
+                    style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
+                      <a class="dropdown-item" href="#">Mision</a>
+                      <a class="dropdown-item" href="#">Vision</a>
+                      <a class="dropdown-item" href="#">Foundation</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-phone"></i>  Contact us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-map-marked-alt"></i> Location</a>
+                  </li>
+                </ul>
+              </nav>      
+              <hr class="my-4">  
+</div>
+
   <app-root></app-root>
 </body>
 </html>
